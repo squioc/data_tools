@@ -19,5 +19,10 @@ setup(name='data_tools',
         ],
         download_url="https://github.com/squioc/data_hacks/archive/v%s.zip" % version,
         scripts = [
+            "data_tools/avg.py",
+            "data_tools/min.py",
+            "data_tools/max.py",
+            "data_tools/sum.py",
+            "data_tools/substring.py",
         ]
     )
